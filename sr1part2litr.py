@@ -16,7 +16,7 @@ import time
 drive.mount('/drive')
 
 base_link = "https://pubmed.ncbi.nlm.nih.gov"
-article_df = pd.read_csv('/drive/My Drive/Scrappers/LITRScrap/sr1part2/review_443052_included_csv_20241123082518.csv')
+article_df = pd.read_csv('/drive/My Drive/Scrappers/LITRScrap/sr1part2/review.csv')
 
 articles = article_df["DOI"].tolist()
 
